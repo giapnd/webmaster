@@ -1,0 +1,13 @@
+body{
+    width:960px;
+    margin:0 auto;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+}
+li{
+    flex:1;
+    text-align:center;
+    border-right:0;
+}

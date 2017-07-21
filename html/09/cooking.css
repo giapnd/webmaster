@@ -1,0 +1,33 @@
+body{
+    margin:0;
+}
+main,nav,article,aside,section{
+    border:solid 1px;
+}
+img{
+    width:300px;
+}
+.main{
+    display:flex;
+    margin-left:100px;
+    margin-right:100px;
+    width:960px;
+ 
+}
+.nav{
+    flex:1;
+}
+.article{
+    flex:3;
+}
+.aside{
+    flex:3;
+}
+footer{
+    border-bottom:solid 1px;
+    padding-left:100px;
+}
+header{
+    border-bottom:solid 1px;
+    padding-left:100px;
+}

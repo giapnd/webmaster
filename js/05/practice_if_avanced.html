@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>practice_if_avanced</title>
+    </head>
+    <body>
+        <script>
+            var rand_1=Math.floor(Math.random()*3);
+            var rand_2=Math.floor(Math.random()*3);
+            var rand_3=Math.floor(Math.random()*3);
+            document.write('<p>rand_1:'+rand_1+'</p>');
+            document.write('<p>rand_2:'+rand_2+'</p>');
+            document.write('<p>rand_3:'+rand_3+'</p>');
+            if(rand_1>rand_2 && rand_1>rand_3){
+                document.write('<p>一番大きい数値:'+rand_1+'</p>');
+            }else if (rand_2>rand_1 && rand_2>rand_3){
+                document.write('<p>一番大きい数値:'+rand_2+'</p>');
+            }else if (rand_3>rand_1 && rand_3>rand_2){
+                document.write('<p>一番大きい数値:'+rand_3+'</p>');
+            }else if (rand_3==rand_1 && rand_3==rand_2){
+                document.write('<p>三つは同じ値</p>');
+            }else if (rand_1==rand_2 && rand_2>rand_3){
+                document.write('<p>一番大きい数値:rand_1とrand_2</p>');
+            }else if (rand_1==rand_3 && rand_3>rand_2){
+                document.write('<p>一番大きい数値:rand_1とrand_3</p>');
+            }else if (rand_2==rand_3 && rand_3>rand_1){
+                document.write('<p>一番大きい数値:rand_2とrand_3</p>');
+            }      
+        </script>
+    </body>
+</html>

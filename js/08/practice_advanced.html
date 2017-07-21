@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>practice_array_advanced</title>
+    </head>
+    <body>
+        <script>
+            var data_1=[59, 39, 100, 2, 15, 40, 84, 97];
+            var data_2=[63, 18, 64, 97, 50, 98];
+            var sum=0;
+            for(var i=0;i<data_1.length;i++){
+                sum=sum+data_1[i];
+            }
+            for(var j=0;j<data_2.length;j++){
+                sum=sum+data_2[j];
+            }
+            document.write('data_1とdata_2を合わせた平均値：'+sum/(data_1.length+data_2.length)+'<br/>');
+            document.write('平均値以上の数値は以下<br/>');
+            for(var i=0;i<data_1.length;i++){
+                if(data_1[i] >= sum/(data_1.length+data_2.length)){
+                    document.write('data_1:'+data_1[i]+'<br/>');
+                }
+            }
+            for(var j=0;j<data_2.length;j++){
+                if(data_2[j] >= sum/(data_1.length+data_2.length)){
+                    document.write('data_2:'+data_2[j]+'<br/>');
+                }
+            }
+            
+        </script>
+    </body>
+</html>

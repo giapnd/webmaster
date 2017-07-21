@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>challenge_func</title>
+    </head>
+    <body>
+        <script>
+            var price=100;
+            function including_tax(tax){
+                price=price+price*tax/100;
+                return price;
+            }
+            document.write('<p>税込み価格は'+including_tax(5)+'です。</p>');
+        </script>
+    </body>
+</html>

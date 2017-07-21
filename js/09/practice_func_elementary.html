@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>practice_func_elementary</title>
+    </head>
+    <body>
+        <script>
+            var data=[59, 39, 100, 2, 15, 40, 84, 97];
+            var ave=0; //平均値
+            function calc_ave(){
+                for(var i=0; i<data.length; i++){
+                    ave=ave+data[i];
+                }
+                return ave/data.length;
+            }
+            document.write('<p>配列dataの平均値を表示するは：'+calc_ave()+'です。</p>');
+        </script>
+    </body>
+</html>

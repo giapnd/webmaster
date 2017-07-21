@@ -1,0 +1,16 @@
+h1{
+    font-size: 24px;
+    color: blue;
+    border-bottom: dashed 2px blue;
+    border-top: dashed 2px blue;
+    text-align: center;
+    background-color: aqua;
+}
+li{
+    color: black;
+    font-size: 16px;
+}
+p{
+    color: black;
+    font-size: 16px;
+}

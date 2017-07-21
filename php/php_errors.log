@@ -1,0 +1,2 @@
+[20-Jul-2017 23:30:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/07/if_sample.php on line 19
+[20-Jul-2017 23:46:10 UTC] PHP Parse error:  syntax error, unexpected ''</p>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/php/07/challenge_if.php on line 11

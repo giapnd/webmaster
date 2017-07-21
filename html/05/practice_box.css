@@ -1,0 +1,38 @@
+html, body,p,dt{
+    padding:0px;
+}
+body{
+    border: solid 3px #808000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    background-color:#808000;
+    margin-top:0px;
+}
+dt{
+    border-bottom: solid 1px #808000;
+    margin-right:10px;
+}
+dl{
+    margin-left: 10px;
+}
+p{
+    margin-left:10px;
+}
+div{
+    border: solid 1px #808000;
+    margin:20px;
+}
+a{
+    border: solid 1px #808000;
+    width:auto;
+    text-align : center;
+    font-size: 16px;
+    background-color: #808000;
+    margin: 20px;
+    display: block;
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>dice</title>
+    </head>
+    <body>
+        <script>
+            function throw_dice(num){
+                var sum=0;
+                for(var i=0; i<num; i++){
+                    sum +=Math.ceil(Math.random()*6);
+                }
+                return sum;
+            }
+            document.write('<p>サイコロを１個振る：'+throw_dice(1)+'</p>');
+            document.write('<p>サイコロを１個振る：'+throw_dice(1)+'</p>');
+            document.write('<p>サイコロを１個振る：'+throw_dice(2)+'</p>');
+            document.write('<p>サイコロを１個振る：'+throw_dice(2)+'</p>');
+            document.write('<p>サイコロを１個振る：'+throw_dice(3)+'</p>');
+            document.write('<p>サイコロを１個振る：'+throw_dice(3)+'</p>');
+            
+        </script>
+    </body>
+</html>
