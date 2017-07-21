@@ -12,12 +12,12 @@
             if($int==$str){
                 print '$int==$str is true'."\n";
             }else {
-                print '$int==$str is false'."\n";;
+                print '$int==$str is false'."\n";
             } 
             if($int===$str){
                 print '$int===$str is true'."\n";
             }else {
-                print '$int===$str is false'."\n";;
+                print '$int===$str is false'."\n";
             }
             ?>
         </pre>
