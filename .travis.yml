@@ -7,9 +7,9 @@ group: edge
 
 addons:
   sonarcloud:
-    organization: "nguyen dinh giap"
+    organization: "webmaster"
     token:
-      secure: "2789d6ef76594de01e842403ab5d7615569b8fbd"
+      secure: "cae186f85e2fae94351051b37bb519f2ae871930"
 jdk:
   - oraclejdk8
 
