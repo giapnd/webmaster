@@ -1,4 +1,6 @@
 language: php
+php:
+  - '7.1'
 dist: trusty
 sudo: required
 group: edge
@@ -7,7 +9,7 @@ addons:
   sonarcloud:
     organization: "giapnd"
     token:
-      secure: "qEeQoxB95G9sApL9uNRr"
+      secure: "2789d6ef76594de01e842403ab5d7615569b8fbd"
 jdk:
   - oraclejdk8
 
