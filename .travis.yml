@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "giapnd"
     token:
-      secure: "1bf13cd740af6ef4843a2cce9437638d7cbe8d9a"
+      secure: "qEeQoxB95G9sApL9uNRr"
 
 jdk:
   - oraclejdk8
