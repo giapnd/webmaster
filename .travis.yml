@@ -3,7 +3,7 @@ sudo: required
 
 addons:
   sonarcloud:
-    organization: "giapnd"
+    organization: "webmaster"
     token:
       secure: "f08c269fff4ba49c6284550af485d67e201bd361"
 
