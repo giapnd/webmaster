@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>ユーザー定義関数</title>
+    </head>
+    <body>
+        <pre>
+            <?php
+            print_hello();
+            print_hello_name('山田');
+            $return_hello_name=return_hello_name('田中');
+            
+            print $return_hello_name;
+            
+            function print_hello(){
+                print 'print_hello関数:hello'."\n";
+            }
+            
+            function print_hello_name($name){
+                print 'print_hello_name関数:'.$name."\n";
+            }
+            function return_hello_name($name){
+                $str='return_hello_name関数:'.$name."\n";
+                return $str;
+            }
+            ?>
+            
+        </pre>
+    </body>
+</html>
