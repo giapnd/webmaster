@@ -122,3 +122,244 @@
 [23-Jul-2017 14:08:04 UTC] PHP Stack trace:
 [23-Jul-2017 14:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/11/challenge_func.php:0
 [23-Jul-2017 14:08:04 UTC] PHP   2. calc_bmi() /home/ubuntu/workspace/php/11/challenge_func.php:32
+[24-Jul-2017 14:03:18 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:03:18 UTC] PHP Stack trace:
+[24-Jul-2017 14:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:03:18 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:03:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:03:18 UTC] PHP Stack trace:
+[24-Jul-2017 14:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:03:18 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:04:08 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:04:08 UTC] PHP Stack trace:
+[24-Jul-2017 14:04:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:04:08 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:04:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:04:08 UTC] PHP Stack trace:
+[24-Jul-2017 14:04:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:04:08 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:04:10 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:04:10 UTC] PHP Stack trace:
+[24-Jul-2017 14:04:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:04:10 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:04:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:04:10 UTC] PHP Stack trace:
+[24-Jul-2017 14:04:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:04:10 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:05:22 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:05:22 UTC] PHP Stack trace:
+[24-Jul-2017 14:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:05:22 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:05:22 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:05:22 UTC] PHP Stack trace:
+[24-Jul-2017 14:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:05:22 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:06:07 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:06:07 UTC] PHP Stack trace:
+[24-Jul-2017 14:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:06:07 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:06:07 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:06:07 UTC] PHP Stack trace:
+[24-Jul-2017 14:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:06:07 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:06:13 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:06:13 UTC] PHP Stack trace:
+[24-Jul-2017 14:06:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:06:13 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:06:13 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:06:13 UTC] PHP Stack trace:
+[24-Jul-2017 14:06:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:06:13 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:07:41 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:07:41 UTC] PHP Stack trace:
+[24-Jul-2017 14:07:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:07:41 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:07:41 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:07:41 UTC] PHP Stack trace:
+[24-Jul-2017 14:07:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:07:41 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 14:07:43 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/ubuntu/workspace/php/12/file_sample.php on line 7
+[24-Jul-2017 14:07:43 UTC] PHP Stack trace:
+[24-Jul-2017 14:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:07:43 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/file_sample.php:7
+[24-Jul-2017 14:07:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/file_sample.php on line 12
+[24-Jul-2017 14:07:43 UTC] PHP Stack trace:
+[24-Jul-2017 14:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/file_sample.php:0
+[24-Jul-2017 14:07:43 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/file_sample.php:12
+[24-Jul-2017 15:09:53 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/php/12/challenge_file.php on line 34
+[24-Jul-2017 15:10:52 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/php/12/challenge_file.php on line 6
+[24-Jul-2017 15:10:52 UTC] PHP Stack trace:
+[24-Jul-2017 15:10:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:10:52 UTC] PHP   2. fwrite() /home/ubuntu/workspace/php/12/challenge_file.php:6
+[24-Jul-2017 15:10:52 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/challenge_file.php on line 10
+[24-Jul-2017 15:10:52 UTC] PHP Stack trace:
+[24-Jul-2017 15:10:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:10:52 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/challenge_file.php:10
+[24-Jul-2017 15:14:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/challenge_file.php on line 7
+[24-Jul-2017 15:14:27 UTC] PHP Stack trace:
+[24-Jul-2017 15:14:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:14:27 UTC] PHP   2. fwrite() /home/ubuntu/workspace/php/12/challenge_file.php:7
+[24-Jul-2017 15:14:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/php/12/challenge_file.php on line 11
+[24-Jul-2017 15:14:27 UTC] PHP Stack trace:
+[24-Jul-2017 15:14:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:14:27 UTC] PHP   2. fclose() /home/ubuntu/workspace/php/12/challenge_file.php:11
+[24-Jul-2017 15:27:10 UTC] PHP Warning:  fopen(07月24日 15:27:10./challenge_log.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/12/challenge_file.php on line 7
+[24-Jul-2017 15:27:10 UTC] PHP Stack trace:
+[24-Jul-2017 15:27:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:27:10 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/challenge_file.php:7
+[24-Jul-2017 15:30:34 UTC] PHP Warning:  fopen(2017-07-24 15:30:34./challenge_log.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/12/challenge_file.php on line 7
+[24-Jul-2017 15:30:34 UTC] PHP Stack trace:
+[24-Jul-2017 15:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:30:34 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/challenge_file.php:7
+[24-Jul-2017 15:31:53 UTC] PHP Warning:  fopen(2017-07-24 15:31:53./challenge_log.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/12/challenge_file.php on line 7
+[24-Jul-2017 15:31:53 UTC] PHP Stack trace:
+[24-Jul-2017 15:31:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:31:53 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/challenge_file.php:7
+[24-Jul-2017 15:32:05 UTC] PHP Warning:  fopen(2017-07-24 15:32:05./challenge_log.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/12/challenge_file.php on line 7
+[24-Jul-2017 15:32:05 UTC] PHP Stack trace:
+[24-Jul-2017 15:32:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/challenge_file.php:0
+[24-Jul-2017 15:32:05 UTC] PHP   2. fopen() /home/ubuntu/workspace/php/12/challenge_file.php:7
+[25-Jul-2017 14:07:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 33
+[25-Jul-2017 14:07:27 UTC] PHP Stack trace:
+[25-Jul-2017 14:07:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:0
+[25-Jul-2017 14:07:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 33
+[25-Jul-2017 14:07:50 UTC] PHP Stack trace:
+[25-Jul-2017 14:07:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:0
+[25-Jul-2017 14:12:46 UTC] PHP Parse error:  syntax error, unexpected '$read' (T_VARIABLE) in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 34
+[25-Jul-2017 23:27:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 33
+[25-Jul-2017 23:27:42 UTC] PHP Stack trace:
+[25-Jul-2017 23:27:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:0
+[25-Jul-2017 23:28:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 33
+[25-Jul-2017 23:28:11 UTC] PHP Stack trace:
+[25-Jul-2017 23:28:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:0
+[25-Jul-2017 23:28:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 33
+[25-Jul-2017 23:28:40 UTC] PHP Stack trace:
+[25-Jul-2017 23:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:0
+[27-Jul-2017 14:10:08 UTC] PHP Fatal error:  Call to undefined function Dog() in /home/ubuntu/workspace/php/14/object02.php on line 22
+[27-Jul-2017 14:10:08 UTC] PHP Stack trace:
+[27-Jul-2017 14:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/14/object02.php:0
+[27-Jul-2017 14:19:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/14/practice_object.php on line 18
+[28-Jul-2017 14:03:49 UTC] PHP Warning:  explode(): Empty delimiter in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 8
+[28-Jul-2017 14:03:49 UTC] PHP Stack trace:
+[28-Jul-2017 14:03:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:0
+[28-Jul-2017 14:03:49 UTC] PHP   2. explode() /home/ubuntu/workspace/php/12/practice_file_intermediate.php:8
+[28-Jul-2017 14:06:42 UTC] PHP Parse error:  syntax error, unexpected ''</div>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 35
+[28-Jul-2017 14:15:10 UTC] PHP Parse error:  syntax error, unexpected 'htmlspecialchars' (T_STRING) in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 8
+[28-Jul-2017 14:45:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 35
+[28-Jul-2017 14:59:53 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 9
+[28-Jul-2017 15:00:22 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 9
+[28-Jul-2017 15:00:34 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/php/12/practice_file_intermediate.php on line 9
+[29-Jul-2017 00:21:30 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:21:30 UTC] PHP Stack trace:
+[29-Jul-2017 00:21:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:21:30 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:24:17 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:24:17 UTC] PHP Stack trace:
+[29-Jul-2017 00:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:24:17 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:49:20 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:49:20 UTC] PHP Stack trace:
+[29-Jul-2017 00:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:49:20 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:51:37 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:51:37 UTC] PHP Stack trace:
+[29-Jul-2017 00:51:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:51:37 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:52:21 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 18
+[29-Jul-2017 00:52:21 UTC] PHP Stack trace:
+[29-Jul-2017 00:52:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:52:21 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:18
+[29-Jul-2017 00:52:32 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:52:32 UTC] PHP Stack trace:
+[29-Jul-2017 00:52:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:52:32 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:53:16 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:53:16 UTC] PHP Stack trace:
+[29-Jul-2017 00:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:53:16 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:53:45 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:53:45 UTC] PHP Stack trace:
+[29-Jul-2017 00:53:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:53:45 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:54:02 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:54:02 UTC] PHP Stack trace:
+[29-Jul-2017 00:54:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:54:02 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 00:56:02 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/15/db.php on line 17
+[29-Jul-2017 00:56:02 UTC] PHP Stack trace:
+[29-Jul-2017 00:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/db.php:0
+[29-Jul-2017 00:56:02 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/php/15/db.php:17
+[29-Jul-2017 02:11:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/15/bbs.php on line 54
+[29-Jul-2017 02:11:35 UTC] PHP Stack trace:
+[29-Jul-2017 02:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/bbs.php:0
+[29-Jul-2017 02:14:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/15/bbs.php on line 54
+[29-Jul-2017 02:14:18 UTC] PHP Stack trace:
+[29-Jul-2017 02:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/bbs.php:0
+[29-Jul-2017 02:19:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/15/bbs.php on line 55
+[29-Jul-2017 02:19:09 UTC] PHP Stack trace:
+[29-Jul-2017 02:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/bbs.php:0
+[29-Jul-2017 02:23:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/15/bbs.php on line 54
+[29-Jul-2017 02:23:25 UTC] PHP Stack trace:
+[29-Jul-2017 02:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/bbs.php:0
+[29-Jul-2017 02:24:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/15/bbs.php on line 54
+[29-Jul-2017 02:24:31 UTC] PHP Stack trace:
+[29-Jul-2017 02:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/bbs.php:0
+[29-Jul-2017 02:28:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/15/bbs.php on line 54
+[29-Jul-2017 02:28:30 UTC] PHP Stack trace:
+[29-Jul-2017 02:28:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/15/bbs.php:0
+[29-Jul-2017 08:16:36 UTC] PHP Fatal error:  Call to undefined method PDO::fetchAll() in /home/ubuntu/workspace/php/16/querry.php on line 25
+[29-Jul-2017 08:16:36 UTC] PHP Stack trace:
+[29-Jul-2017 08:16:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/querry.php:0
+[29-Jul-2017 08:29:50 UTC] PHP Fatal error:  Undefined class constant 'EXCEPTION' in /home/ubuntu/workspace/php/16/exec.php on line 18
+[29-Jul-2017 08:29:50 UTC] PHP Stack trace:
+[29-Jul-2017 08:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/exec.php:0
+[29-Jul-2017 15:20:40 UTC] PHP Warning:  move_uploaded_file(./img/a2e2cbb4c4eea25c3db2ea10ee3abc26e9ff9a1b.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/16/manage.php on line 18
+[29-Jul-2017 15:20:40 UTC] PHP Stack trace:
+[29-Jul-2017 15:20:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[29-Jul-2017 15:20:40 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/php/16/manage.php:18
+[29-Jul-2017 15:20:40 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpPBjdE4' to './img/a2e2cbb4c4eea25c3db2ea10ee3abc26e9ff9a1b.jpg' in /home/ubuntu/workspace/php/16/manage.php on line 18
+[29-Jul-2017 15:20:40 UTC] PHP Stack trace:
+[29-Jul-2017 15:20:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[29-Jul-2017 15:20:40 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/php/16/manage.php:18
+[29-Jul-2017 15:24:10 UTC] PHP Warning:  move_uploaded_file(./img/4be6223336ea24aa086f9dce98a145f1ac2dad38.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/16/manage.php on line 18
+[29-Jul-2017 15:24:10 UTC] PHP Stack trace:
+[29-Jul-2017 15:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[29-Jul-2017 15:24:10 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/php/16/manage.php:18
+[29-Jul-2017 15:24:10 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOrOKOs' to './img/4be6223336ea24aa086f9dce98a145f1ac2dad38.jpg' in /home/ubuntu/workspace/php/16/manage.php on line 18
+[29-Jul-2017 15:24:10 UTC] PHP Stack trace:
+[29-Jul-2017 15:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[29-Jul-2017 15:24:10 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/php/16/manage.php:18
+[29-Jul-2017 15:25:05 UTC] PHP Warning:  move_uploaded_file(./php/img/575474cb65649a045ea966e22ef85acf2c73a392.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/16/manage.php on line 18
+[29-Jul-2017 15:25:05 UTC] PHP Stack trace:
+[29-Jul-2017 15:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[29-Jul-2017 15:25:05 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/php/16/manage.php:18
+[29-Jul-2017 15:25:05 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpu9hF9m' to './php/img/575474cb65649a045ea966e22ef85acf2c73a392.jpg' in /home/ubuntu/workspace/php/16/manage.php on line 18
+[29-Jul-2017 15:25:05 UTC] PHP Stack trace:
+[29-Jul-2017 15:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[29-Jul-2017 15:25:05 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/php/16/manage.php:18
+[30-Jul-2017 01:07:59 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/ubuntu/workspace/php/16/transaction.php on line 24
+[30-Jul-2017 01:09:27 UTC] PHP Fatal error:  Undefined class constant 'ATTE_EMULATE_PREPARES' in /home/ubuntu/workspace/php/16/transaction.php on line 19
+[30-Jul-2017 01:09:27 UTC] PHP Stack trace:
+[30-Jul-2017 01:09:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/transaction.php:0
+[30-Jul-2017 08:45:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 46
+[30-Jul-2017 08:45:58 UTC] PHP Stack trace:
+[30-Jul-2017 08:45:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[30-Jul-2017 08:47:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 46
+[30-Jul-2017 08:47:23 UTC] PHP Stack trace:
+[30-Jul-2017 08:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[30-Jul-2017 08:54:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 46
+[30-Jul-2017 08:54:17 UTC] PHP Stack trace:
+[30-Jul-2017 08:54:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[30-Jul-2017 08:55:08 UTC] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/ubuntu/workspace/php/16/manage.php on line 45
+[30-Jul-2017 08:55:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 46
+[30-Jul-2017 08:55:38 UTC] PHP Stack trace:
+[30-Jul-2017 08:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[30-Jul-2017 08:57:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 46
+[30-Jul-2017 08:57:25 UTC] PHP Stack trace:
+[30-Jul-2017 08:57:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[30-Jul-2017 08:58:09 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 47
+[30-Jul-2017 08:58:09 UTC] PHP Stack trace:
+[30-Jul-2017 08:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0
+[30-Jul-2017 09:00:47 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/ubuntu/workspace/php/16/manage.php on line 50
+[30-Jul-2017 09:00:47 UTC] PHP Stack trace:
+[30-Jul-2017 09:00:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/16/manage.php:0

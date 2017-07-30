@@ -1,0 +1,22 @@
+.jyusho{
+    display:flex;
+}
+.yuubin{
+    flex:1;
+    border: 1px solid;
+    border-right:none;
+}
+.todou{
+    flex:1;
+    border: 1px solid;
+    border-right:none;
+}
+.siku{
+    flex:1;
+    border: 1px solid;
+    border-right:none;
+}
+.machi{
+    flex:4;
+    border: 1px solid;
+}
