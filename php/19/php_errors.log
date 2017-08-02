@@ -1,0 +1,348 @@
+[01-Aug-2017 14:44:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:44:05 UTC] PHP Stack trace:
+[01-Aug-2017 14:44:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:44:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 20
+[01-Aug-2017 14:44:05 UTC] PHP Stack trace:
+[01-Aug-2017 14:44:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:45:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:45:55 UTC] PHP Stack trace:
+[01-Aug-2017 14:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:45:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 20
+[01-Aug-2017 14:45:55 UTC] PHP Stack trace:
+[01-Aug-2017 14:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:50:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:50:35 UTC] PHP Stack trace:
+[01-Aug-2017 14:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:50:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:50:35 UTC] PHP Stack trace:
+[01-Aug-2017 14:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:56:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:56:20 UTC] PHP Stack trace:
+[01-Aug-2017 14:56:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:56:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:56:20 UTC] PHP Stack trace:
+[01-Aug-2017 14:56:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:57:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:57:19 UTC] PHP Stack trace:
+[01-Aug-2017 14:57:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:57:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:57:19 UTC] PHP Stack trace:
+[01-Aug-2017 14:57:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:58:24 UTC] PHP Stack trace:
+[01-Aug-2017 14:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:58:24 UTC] PHP Stack trace:
+[01-Aug-2017 14:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:58:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:58:29 UTC] PHP Stack trace:
+[01-Aug-2017 14:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:58:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:58:29 UTC] PHP Stack trace:
+[01-Aug-2017 14:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:59:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:59:34 UTC] PHP Stack trace:
+[01-Aug-2017 14:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:59:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:59:34 UTC] PHP Stack trace:
+[01-Aug-2017 14:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:59:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 14:59:58 UTC] PHP Stack trace:
+[01-Aug-2017 14:59:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 14:59:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 14:59:58 UTC] PHP Stack trace:
+[01-Aug-2017 14:59:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:07:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:07:15 UTC] PHP Stack trace:
+[01-Aug-2017 15:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:07:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:07:15 UTC] PHP Stack trace:
+[01-Aug-2017 15:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:08:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:08:57 UTC] PHP Stack trace:
+[01-Aug-2017 15:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:08:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:08:57 UTC] PHP Stack trace:
+[01-Aug-2017 15:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:14:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:14:31 UTC] PHP Stack trace:
+[01-Aug-2017 15:14:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:14:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:14:31 UTC] PHP Stack trace:
+[01-Aug-2017 15:14:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:14:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:14:59 UTC] PHP Stack trace:
+[01-Aug-2017 15:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:14:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:14:59 UTC] PHP Stack trace:
+[01-Aug-2017 15:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:16:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:16:59 UTC] PHP Stack trace:
+[01-Aug-2017 15:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:16:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:16:59 UTC] PHP Stack trace:
+[01-Aug-2017 15:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:47 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:47 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:51 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:52 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:53 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:53 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:53 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:53 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:17:53 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:17:53 UTC] PHP Stack trace:
+[01-Aug-2017 15:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:19:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:19:29 UTC] PHP Stack trace:
+[01-Aug-2017 15:19:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:19:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:19:29 UTC] PHP Stack trace:
+[01-Aug-2017 15:19:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:19:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:19:40 UTC] PHP Stack trace:
+[01-Aug-2017 15:19:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:19:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:19:40 UTC] PHP Stack trace:
+[01-Aug-2017 15:19:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:20:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:20:49 UTC] PHP Stack trace:
+[01-Aug-2017 15:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:20:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:20:49 UTC] PHP Stack trace:
+[01-Aug-2017 15:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:21:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:21:24 UTC] PHP Stack trace:
+[01-Aug-2017 15:21:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:21:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:21:24 UTC] PHP Stack trace:
+[01-Aug-2017 15:21:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:22:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:22:11 UTC] PHP Stack trace:
+[01-Aug-2017 15:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:22:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:22:11 UTC] PHP Stack trace:
+[01-Aug-2017 15:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:23:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:23:14 UTC] PHP Stack trace:
+[01-Aug-2017 15:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:23:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:23:14 UTC] PHP Stack trace:
+[01-Aug-2017 15:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:01 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:01 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:06 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:06 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:07 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:07 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:07 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:07 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:08 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:08 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:08 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:08 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:09 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:10 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:10 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:10 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:10 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:11 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:11 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:24:11 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:24:11 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:24:37 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:24:37 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:24:38 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:24:38 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:24:38 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:24:38 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:24:38 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:24:38 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:24:39 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:24:39 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 19
+[01-Aug-2017 15:24:39 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:24:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 28
+[01-Aug-2017 15:24:39 UTC] PHP Stack trace:
+[01-Aug-2017 15:24:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:27:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:27:00 UTC] PHP Stack trace:
+[01-Aug-2017 15:27:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:27:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:27:00 UTC] PHP Stack trace:
+[01-Aug-2017 15:27:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:28:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 9
+[01-Aug-2017 15:28:22 UTC] PHP Stack trace:
+[01-Aug-2017 15:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0
+[01-Aug-2017 15:28:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php/19/view/view.php on line 18
+[01-Aug-2017 15:28:22 UTC] PHP Stack trace:
+[01-Aug-2017 15:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/19/view/view.php:0

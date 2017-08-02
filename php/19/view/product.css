@@ -1,0 +1,9 @@
+table, td, th {
+      border: solid black 1px;
+    }
+table {
+      width: 200px;
+    }
+caption {
+      text-align: left;
+    }
