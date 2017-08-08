@@ -14,7 +14,6 @@ function entity_str($str){
     return htmlspecialchars($str,ENT_QUOTES,HTML_CHARACTER_SET);
 }
 
-
 function entity_assoc_array($assoc_array){
     foreach($assoc_array as $key => $value){
         foreach($value as $keys => $values){
