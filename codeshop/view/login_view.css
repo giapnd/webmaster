@@ -1,0 +1,23 @@
+.create_form{
+    border:1px dashed black;
+    background-color:white;
+    width:55%;
+    margin:auto;
+}
+.sologun{
+    color:#808000;
+    font-size:12px;
+    margin-top:0px;
+}
+.logo{
+    width:200px;
+    height:100px;
+}
+.btn_login{
+    margin-top:20px;
+    margin-left:135px;
+}
+.msg{
+    font-size:12px;
+    color:red;
+}

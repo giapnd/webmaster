@@ -1,0 +1,162 @@
+.search_main{
+    margin:0 auto;
+    width:80%;
+    
+}
+.icon{
+    width:40px;
+    height:30px;
+    margin-bottom:0;
+}
+.logo{
+    width:80px;
+    height:80px;
+    margin-top:0px;
+}
+
+.mainview{
+    margin:0 auto;
+    text-align:center;
+}
+.sologun{
+    color:#808000;
+}
+.main_image{
+    width:960px;
+    height:300px;
+}
+
+.header{
+    border-bottom:solid 1px #808000;
+    background-color:white;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+.category{
+    background-image:url(./image/watermelon.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding-left:24px;
+    padding-top:6px;
+    font-size:14px;
+    color:white;
+    background-color:#99bb22;
+    border-radius:10px;
+    height:20px;
+    text-align: left;
+    
+  
+}
+.items{
+    background-image:url(./image/lemon.png);
+    background-size:10% auto;
+    background-repeat:no-repeat;
+    padding-left:20px;
+    padding-top:10px;
+    font-size:12px;
+    border-bottom:dashed 1px #808000;
+    color:black;
+}
+.font14{
+    font-size:14px;
+    color:#808000;
+    
+}
+#group_product{
+    width: 760px;
+}
+
+#group_product .product{
+    width: 120px;
+    height: 210px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+#group_product span{
+    display: block;
+    margin: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main{
+    display:flex;
+    margin:0 auto;
+    width:960px;
+ 
+}
+.nav{
+    flex-basis:200px;
+    padding-right:10px;
+}
+.article{
+    flex-basis:760px;
+    padding-right:10px;
+}
+.btn_search{
+    margin-top:30px;
+}
+
+.footer{
+    width:760px;
+    margin:0 auto;
+}
+
+#contact{
+    border-right:none;
+}
+#copyright{
+    text-align:center;
+    color:#808000;;
+}
+
+section{
+    margin-top:12px;
+    background-color:white;
+    border: 1px solid white;
+}
+footer{
+   background-color:white; 
+   border-top:1px solid #808000;
+   padding:2px;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    margin:0px;
+}
+li{
+    flex:1;
+    text-align:center;
+    border-right:1px solid;
+    font-size:14px;
+    color:#808000;
+}
+
+p{
+    margin-left:10px;
+    margin-top:0px;
+    color:black;
+    font-size:12px;
+}
+.img_size{
+    width:100px;
+    /*padding:10px;*/
+    height:100px;
+}
+input{
+    font-size:14px;
+    color:#808000;
+    margin-bottom:30px;
+}
+body{
+    background-color:#f5f5dd;
+}
+a{
+    text-decoration: none;
+}
+
