@@ -19,10 +19,19 @@ try{
             $info_account=check_account($dbh,$email,$password);
             if (count($info_account)!==0){
                 foreach($info_account as $read){
-                header('Location: ./itemlist.php?');
-                setcookie('account_name', $read['name_kanji'], time() + 3600);
-                exit;
-                }
+                    session_start();
+                    if (isset($_SESSION['account_id'])) {
+                        $account_id = $_SESSION['account_id'];
+                    }else {
+                        setcookie('account_name', $read['name_kanji'], time() + 3600);
+                        setcookie('account_id', $read['id'], time() + 3600);
+                        if($read['permisions']==1){
+                            setcookie('permisions', $read['permisions'], time() + 3600);
+                        }
+                        header('Location: /codeshop/itemlist.php?');
+                        exit;
+                    }
+                    }
             }else {
             $message='入力するアカウントが間違っています。もう一度入力してください';
             }

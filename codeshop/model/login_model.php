@@ -13,7 +13,7 @@ function validation($email,$password){
 }
 
 function check_account($dbh,$email,$password){
-    $sql='select id,name_kanji,name_furikana,post_number,mobile,email,password,created_at from t_user where email=? and password=?';
+    $sql='select id,name_kanji,name_furikana,post_number,mobile,email,password,permisions,created_at from t_user where email=? and password=?';
     $res=$dbh->prepare($sql);
     $res->bindValue(1,$email,PDO::PARAM_STR);
     $res->bindValue(2,$password,PDO::PARAM_STR);

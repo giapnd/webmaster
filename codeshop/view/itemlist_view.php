@@ -17,21 +17,18 @@
                             <p class="sologun">熱帯フルーツに味をウェイクアップする</p>
                         </td>
                         <td>
-                            <input type="text" id="text_value" name="search_name" value="<?php print $search_name ;?>" placeholder="商品検索" size="40">
+                            <input type="text" id="text_search" name="search_name" value="<?php print $search_name ;?>" placeholder="商品検索" size="40">
                             <input type="submit" id="btn_search" value="■□検索■□">
                         </td>
                         <td>
-                            <span class="font14">カート</span><img class="icon" src="./view/image/shopping_cart.png">
+                            <span class="font14"><a href="./cart.php">カート</span><img class="icon" src="./view/image/shopping_cart.png">
                         </td>
                         <td>
                             <span class="font14"><?php if(isset($_COOKIE['account_name'])) {?>
-                            <?php print '<a href="./logout.php">'.$_COOKIE['account_name'];?> 
-                            <?php print '</span><img class="icon" src="./view/image/logout.png">';?>
-                            <?php }else {?>
-                            <?php print '<a href="./login.php">ログイン'; ?>
-                            <?php print '</span><img class="icon" src="./view/image/login.png">';?>
-                            <?php }?>
-                            
+                                <?php print '<a href="./logout.php">'.$_COOKIE['account_name'].'<img class="icon" src="./view/image/logout.png">';?> 
+                                <?php }else {?>
+                                <?php print '<a href="./login.php">ログイン<img class="icon" src="./view/image/login.png">'; ?>
+                                <?php }?>
                         </td>
                     </tr>
                 </table>
@@ -40,20 +37,16 @@
                     <?php foreach ($list_infomation as $read) {?>
                     <li name="<?php print $read['name'] ;?>" value="<?php print $read['id'] ;?>"><a href="/codeshop/itemlist.php?information_id=<?php print $read['id'] ;?>"><?php print $read['name']; ?></a></li>
                     <?php }?>
+                    <?php if(isset($_COOKIE['permisions'])) {?>
+                        <?php if($_COOKIE['permisions']==1) {?>
+                            <?php print '<li><a href="./admin.php">商品管理ページ</li>'; ?>
+                        <?php }?>
+                    <?php }?>
                 </ul>
                 </div>
             </form>
         </header>
-        <script language="javascript">
-            var button = document.getElementById("btn_search");
-            button.onclick = function()
-            {
-                var text_value =document.getElementById("text_value").value;
-                if(text_value==''){
-                    alert('検索入力してください！');
-                }
-            };
-        </script>
+       
         <div class="mainview">
         <img class="main_image" src="./view/image/slide1.jpeg">
         </div>
@@ -84,72 +77,56 @@
                         <h1 class="category">検索結果</h1>
                     <?php }?>
                     <?php }?>
-                </section>  
+                </section>
+                <form method="post" action ="./finish.php">
                 <div id="group_product">
                     <?php if ($information_id==1||$information_id==2||$information_id==3||$information_id==4) {?>
                         <?php foreach ($list_item_information as $read) {?>
                             <p><?php print $read['description']?></p>
                         <?php } ?>
                     <?php } else {?>
-                    <?php if ($category_id=='' && $search_name=='') {?>
-                        <?php foreach ($list_product as $read) {?>
-                        <form method="post">
-                        <div class="product" >
-                            <span class="img_size"><img src="<?php print $img_dir.$read['img']; ?>"></span>
-                            <span>名前：<?php print $read['name']; ?></span>
-                            <span>価格：<?php print $read['price'] ; ?>円</span>
-                            <?php if(isset($_COOKIE['account_name'])) {?>
-                                <?php if ($read['stock']==0) {?> 　
-                                <span><?php print '売り切り' ;?></span>
-                                <?php } else {?>
-                                <span><input type="submit" value="カートに入れる"></span>
-                                <?php }?>
-                            <?php }?>
-                        </div>
-                        </form>
-                        <?php } ?>
-                    <?php } else{?>
-                    <?php foreach ($list_item_category as $read) {?>
-                    <div class="product" >
-                        <span class="img_size"><img src="<?php print $img_dir.$read['img']; ?>"></span>
-                        <span>名前：<?php print $read['name']; ?></span>
-                        <span>価格：<?php print $read['price'] ; ?>円</span> 
-                        <?php if(isset($_COOKIE['account_name'])) {?>
-                            <?php if ($read['stock']==0) {?> 　
-                            <span><?php print '売り切り' ;?></span>
-                            <?php } else {?>
-                            <span><input type="submit" value="カートに入れる"></span>
-                            <?php }?>
-                        <?php }?>
-                    </div>
-                    <?php } ?>
-                    <?php } ?>
-                    <?php if ($search_name !=''){ ?>
-                        <?php if(count($result_search)==0) {?>
+                        <?php if ($search_name !='' && count($result_search)==0){ ?>
                             <span><?php print 結果がありません ;?></span>     
-                        <?php }else {?>
-                            <?php foreach ($result_search as $read) {?>
-                            <div  >
-                                <span class="img_size"><img src="<?php print $img_dir.$read['img']; ?>"></span>
-                                <span>名前：<?php print $read['name']; ?></span>
-                                <span>価格：<?php print $read['price'] ; ?>円</span>
-                                <span>価格：<?php print $read['description'] ;?></span>
-                                <?php if(isset($_COOKIE['account_name'])) {?>
-                                    <?php if ($read['stock']==0) {?> 　
-                                    <span><?php print '売り切り' ;?></span>
-                                    <?php } else {?>
-                                    <span><input type="submit" value="カートに入れる"></span>
+                        <?php }else { ?>
+                               <?php foreach ($list_item_product as $read) {?>
+                                
+                                <div class="product" >
+                                    <span class="img_size"><img src="<?php print $img_dir.$read['img']; ?>"></span>
+                                    <span>名前：<?php print $read['name']; ?></span>
+                                    <span>価格：<?php print $read['price'] ; ?>円</span>
+                                    <?php if(isset($_COOKIE['account_name'])) {?>
+                                        <?php if ($read['stock']==0) {?> 　
+                                        <span class="text_cart"><?php print '売り切り' ;?></span>
+                                        <?php } else {?>
+                                        <span class="text_cart"><input type="checkbox" value="<?php print $read['id']?>" class="chb_cart" name="chb_cart[]">カートに入れる</span>
+                                        <?php }?>
                                     <?php }?>
-                                <?php }?>
-                            </div>
-                        <?php }?>
-                        <?php }?>
-                    <?php }?>
+                                </div>
+                                
+                                <?php } ?>
+                                <div id="submit">
+                                    <input type="submit" name="btn_buy" id="btn_buy" value="□ ■ □ ■購入□ ■ □ ■">
+                                </div> 
+                        <?php } ?>
                     <?php }?>
                 </div>
-               
-            </article>   
+                </form>
+            </article>
         </main>
+        <script language="javascript">
+            var btn_search = document.getElementById("btn_search");
+            var btn_buy =document.getElementById("btn_buy");
+            btn_search.onclick = function(){
+                var text_search =document.getElementById("text_search").value;
+                if(text_search==''){
+                    alert('検索入力してください！');
+                }
+            }
+            btn_buy.onclick = function(){
+                    alert('購入しましたのでカートを確認してください！');
+                }
+            ;
+        </script>
         <footer>
             <ul class="footer">
                 <?php foreach ($list_infomation as $read) {?>

@@ -8,11 +8,11 @@
     margin-left:20px;
     
 }
+tr{
+    border:1px dashed black;
+}
 img{
     width:100px;
     /*padding:10px;*/
     height:100px;
-}
-tr{
-    border:1px dashed black;
 }

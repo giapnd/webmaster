@@ -16,11 +16,10 @@ try{
         $search_name=htmlspecialchars($_GET["search_name"],ENT_QUOTES,'UTF-8');
     }
     $dbh=get_db_connect();
-    $list_product=get_list_product($dbh);
     $list_category=get_list_category($dbh);
     $list_infomation=get_list_information($dbh);
     $list_item_information= get_item_information($dbh,$information_id);
-    $list_item_category= get_item_category($dbh,$category_id);
+    $list_item_product= get_item_product($dbh,$category_id,$search_name);
     $get_item_category=item_category($dbh,$category_id);
     if(trim($search_name)!=''){
         $result_search=get_list_search_name($dbh,$search_name);

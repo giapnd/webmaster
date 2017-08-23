@@ -3,35 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>ショッピングカートページ</title>
-        <link rel="stylesheet" href="./cart_view.css">
+        <link rel="stylesheet" href="./view/cart_view.css">
     </head>
     <body>
-        <form action ="#" class="create_form">
-            <p>一覧商品</p>
+        <form action ="./itemlist.php" class="create_form">
+            <h2>一覧商品果</h2>
+            <?php if(!isset($_COOKIE['account_id'])) {?>
+                <p class="msg"><?php print $msg; ?></p>
+            <?php } else {?>
+            <?php if (count($list_item_cart_of_account)==0){?>
+                <p class="msg"><?php print '商品が購入しませんでした。'; ?></p>
+            <?php }else {?>
             <table class="list_product">
+                <?php foreach ($list_item_cart_of_account as $key => $read) {?>
                 <tr>
-                    <td><span><img src="./image/banana1.png"></span></td>
+                    <td><img src="<?php print $img_dir.$read['img']; ?>"></td>
                     <td>
-                        <p>名前：バナナ1</p>
-                        <p>価格：500円</p>
+                        <p>名前：<?php print $read['name']; ?></p>
+                        <p>価格：<?php print $read['price'] ; ?>円</p>
                     </td>
                 </tr>
-                <tr>
-                    <td><span><img src="./image/banana2.jpeg"></span></td>
-                    <td>
-                        <p>名前：バナナ2</p>
-                        <p>価格：500円</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><span><img src="./image/banana3.jpeg"></span></td>
-                    <td>
-                        <p>名前：バナナ3</p>
-                        <p>価格：500円</p>
-                    </td>
-                </tr>
+                <?php }?>
             </table>
-            <p>合計:1500円</p>
+            <?php foreach ($report_cart_of_account as $key => $read) {?>
+                <p>品数:<?php print $read['count_sp']; ?>数</p>
+                <p>合計:<?php print $read['sum_amount']; ?>円</p>
+            <?php }?>
+            <?php }?>
+            <?php }?>
             <input type="submit" value="■□■□■□■□購入■□■□■□■□" >
         </form>
     </body>
