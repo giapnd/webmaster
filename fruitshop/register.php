@@ -39,7 +39,7 @@ try{
                     setcookie('permisions', $read['permisions'], time() + 3600);
                 }
             }
-            header('Location: /codeshop/itemlist.php?');
+            header('Location: /fruitshop/fruit.php?');
             exit;
         }   
     }

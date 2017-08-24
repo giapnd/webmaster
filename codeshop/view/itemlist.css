@@ -123,7 +123,13 @@
 }
 #copyright{
     text-align:center;
-    color:#808000;;
+    color:#808000;
+}
+#alert_result{
+    color:red;
+    font-size:14px;
+    padding-left:20px;
+    margin-top:5px;
 }
 
 section{

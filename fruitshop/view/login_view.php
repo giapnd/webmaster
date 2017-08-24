@@ -9,7 +9,7 @@
         
         <form method= "post" action ="#" class="create_form">
             <div>
-            　　<a href="/"><img class="logo" src="./view/image/logo.png"></a>
+            　　<a href="/"><img class="logo" src="./view/images/logo.png"></a>
                 <p class="sologun">熱帯フルーツに味をウェイクアップする</p>
             </div>
             <table>

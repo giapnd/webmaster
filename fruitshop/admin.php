@@ -51,7 +51,7 @@ try{
         $list_product=get_ds_product($dbh);
         $list_category=get_list_category($dbh);
     }else {
-        header('Location: /codeshop/login.php?');
+        header('Location: /fruitshop/login.php?');
         exit;
     }
 }catch(Exception $e){

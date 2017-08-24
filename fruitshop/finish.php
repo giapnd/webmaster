@@ -36,7 +36,7 @@ try{
             }    
         }
     }else {
-        header('Location: /codeshop/itemlist.php?');
+        header('Location: /fruitshop/fruit.php?');
         exit;
     }
 }catch(Exception $e){

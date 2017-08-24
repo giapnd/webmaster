@@ -380,3 +380,16 @@
 [23-Aug-2017 02:14:30 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/ubuntu/workspace/codeshop/login.php on line 27
 [23-Aug-2017 02:47:40 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/codeshop/login.php on line 41
 [23-Aug-2017 03:37:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/codeshop/cart.php on line 15
+[23-Aug-2017 09:39:08 UTC] PHP Fatal error:  Call to undefined function check_account() in /home/ubuntu/workspace/codeshop/register.php on line 33
+[23-Aug-2017 09:39:08 UTC] PHP Stack trace:
+[23-Aug-2017 09:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeshop/register.php:0
+[23-Aug-2017 09:39:42 UTC] PHP Fatal error:  Cannot redeclare validation() (previously declared in /home/ubuntu/workspace/codeshop/model/register_model.php:2) in /home/ubuntu/workspace/codeshop/model/login_model.php on line 2
+[23-Aug-2017 09:39:42 UTC] PHP Stack trace:
+[23-Aug-2017 09:39:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeshop/register.php:0
+[23-Aug-2017 09:41:14 UTC] PHP Fatal error:  Cannot redeclare validation() (previously declared in /home/ubuntu/workspace/codeshop/model/register_model.php:2) in /home/ubuntu/workspace/codeshop/model/login_model.php on line 2
+[23-Aug-2017 09:41:14 UTC] PHP Stack trace:
+[23-Aug-2017 09:41:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeshop/register.php:0
+[24-Aug-2017 04:56:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/fruit_view.php on line 145
+[24-Aug-2017 04:56:04 UTC] PHP Stack trace:
+[24-Aug-2017 04:56:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/fruit.php:0
+[24-Aug-2017 04:56:04 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/fruit.php:31
