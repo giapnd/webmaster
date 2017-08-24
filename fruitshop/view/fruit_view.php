@@ -71,7 +71,7 @@
 				<ul class="fh5co-social">
 					<li>
                         <?php if(isset($_COOKIE['account_name'])) {?>
-                                <input type="submit" class="items" name="btn_buy" id="btn_buy" value="□ ■購入□ ■">
+                                <span class="items">購入<input type="image" src="view/images/dollar.png" alt="購入" class="icon" name="btn_buy" id="btn_buy" /></span>
                         <?php } ?>
 					</li>
 					<li>

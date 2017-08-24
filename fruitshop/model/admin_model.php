@@ -7,7 +7,7 @@ function validation($product_name,$price,$stock,$category,$status,$description,$
     if($_SERVER['REQUEST_METHOD']==='POST'){
         if(is_uploaded_file($_FILES['new_img']['tmp_name']) === TRUE){
                 // $extension=pathinfo($_FILES['new_img']['name'],PATHINFO_EXTENSION);
-                if($extension==='jpg' || $extension==='jpeg'){
+                if($extension==='jpg' || $extension==='jpeg'||$extension==='png'||$extension==='PNG' ){
                     // $new_img_filename=sha1(uniqid(mt_rand(),true)).'.'.$extension;
                     $new_img_filename=$exit_file;
                     if(is_file($img_dir.$new_img_filename) !==TRUE){

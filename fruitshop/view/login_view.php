@@ -19,7 +19,7 @@
                 </tr>
                 <tr>
                     <td>パスワード：</span></td>
-                    <td><input type="textbox" name="password"></td>
+                    <td><input type="password" name="password"></td>
                 </tr>
             </table>
             <?php if (count($err_msg)!==0){?>
