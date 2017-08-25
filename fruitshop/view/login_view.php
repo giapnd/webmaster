@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <titleログインページ</title>
         <link rel="stylesheet" href="./view/login_view.css">
+	    <link rel="stylesheet" href="./view/css/style.css">
     </head>
     <body>
         
@@ -14,11 +15,11 @@
             </div>
             <table>
                 <tr>
-                    <td>メールアドレス：</td>
+                    <td class="items">メールアドレス：</td>
                     <td><input type="textbox" name="email"></td>
                 </tr>
                 <tr>
-                    <td>パスワード：</span></td>
+                    <td class="items">パスワード：</span></td>
                     <td><input type="password" name="password"></td>
                 </tr>
             </table>

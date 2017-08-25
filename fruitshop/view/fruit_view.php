@@ -15,13 +15,13 @@
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Roboto:400,300,700' rel='stylesheet' type='text/css'>
 	<!-- Animate -->
-	<link rel="stylesheet" href="view/css/animate.css">
+	<link rel="stylesheet" href="./view/css/animate.css">
 	<!-- Icomoon -->
-	<link rel="stylesheet" href="view/css/icomoon.css">
+	<link rel="stylesheet" href="./view/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="view/css/bootstrap.css">
+	<link rel="stylesheet" href="./view/css/bootstrap.css">
 
-	<link rel="stylesheet" href="view/css/style.css">
+	<link rel="stylesheet" href="./view/css/style.css">
 
 
 	<!-- Modernizr JS -->
@@ -32,7 +32,7 @@
 		<a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i class="icon-cross3"></i> <span>Close</span></span></a>
 		<div class="fh5co-bio">
 			<figure>
-				<img src="view/images/logo.png" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+				<img src="view/images/logo.png" alt="熱帯フルー" class="img-responsive">
 			</figure>
 			<h3 class="heading"紹介</h3>
 			<h2>熱帯フルーツ</h2>

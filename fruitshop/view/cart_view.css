@@ -1,5 +1,4 @@
 .create_form{
-    border:1px dashed black;
     background-color:white;
     width:55%;
     margin:auto;
@@ -7,9 +6,6 @@
 .list_product{
     margin-left:20px;
     
-}
-tr{
-    border:1px dashed black;
 }
 img{
     width:100px;
