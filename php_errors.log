@@ -405,3 +405,136 @@
 [25-Aug-2017 02:32:00 UTC] PHP Stack trace:
 [25-Aug-2017 02:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/cart.php:0
 [25-Aug-2017 02:32:00 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/cart.php:21
+[25-Aug-2017 06:23:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 166
+[25-Aug-2017 06:23:17 UTC] PHP Stack trace:
+[25-Aug-2017 06:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:24:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:24:42 UTC] PHP Stack trace:
+[25-Aug-2017 06:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:24:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:24:48 UTC] PHP Stack trace:
+[25-Aug-2017 06:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:25:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:25:22 UTC] PHP Stack trace:
+[25-Aug-2017 06:25:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:25:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:25:26 UTC] PHP Stack trace:
+[25-Aug-2017 06:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:25:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:25:48 UTC] PHP Stack trace:
+[25-Aug-2017 06:25:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:25:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:25:57 UTC] PHP Stack trace:
+[25-Aug-2017 06:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:26:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 165
+[25-Aug-2017 06:26:18 UTC] PHP Stack trace:
+[25-Aug-2017 06:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:31:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 103
+[25-Aug-2017 06:31:24 UTC] PHP Stack trace:
+[25-Aug-2017 06:31:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:31:24 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 06:31:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 103
+[25-Aug-2017 06:31:52 UTC] PHP Stack trace:
+[25-Aug-2017 06:31:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 06:31:52 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 07:28:13 UTC] PHP Fatal error:  Cannot redeclare get_cart_product() (previously declared in /home/ubuntu/workspace/fruitshop/model/common.php:44) in /home/ubuntu/workspace/fruitshop/model/finish_model.php on line 2
+[25-Aug-2017 07:28:13 UTC] PHP Stack trace:
+[25-Aug-2017 07:28:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 07:30:35 UTC] PHP Fatal error:  Cannot redeclare get_cart_product() (previously declared in /home/ubuntu/workspace/fruitshop/model/common.php:44) in /home/ubuntu/workspace/fruitshop/model/finish_model.php on line 2
+[25-Aug-2017 07:30:35 UTC] PHP Stack trace:
+[25-Aug-2017 07:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 07:30:55 UTC] PHP Fatal error:  Cannot redeclare get_cart_product() (previously declared in /home/ubuntu/workspace/fruitshop/model/common.php:44) in /home/ubuntu/workspace/fruitshop/model/finish_model.php on line 2
+[25-Aug-2017 07:30:55 UTC] PHP Stack trace:
+[25-Aug-2017 07:30:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 09:10:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 56
+[25-Aug-2017 09:10:12 UTC] PHP Stack trace:
+[25-Aug-2017 09:10:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:10:12 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:49
+[25-Aug-2017 09:12:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:10 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:10 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:16 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:16 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:16 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:16 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:17 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:17 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:17 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:17 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:17 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:17 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:17 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:17 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:17 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:17 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:18 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:18 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:18 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:18 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:18 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:18 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:18 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:18 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:18 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:18 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:19 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:19 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:19 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:19 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:20 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:20 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:20 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:20 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:21 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:21 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:35 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:35 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:12:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:12:48 UTC] PHP Stack trace:
+[25-Aug-2017 09:12:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:12:48 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:35
+[25-Aug-2017 09:13:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:13:48 UTC] PHP Stack trace:
+[25-Aug-2017 09:13:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:13:48 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:36
+[25-Aug-2017 09:13:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/info_view.php on line 119
+[25-Aug-2017 09:13:54 UTC] PHP Stack trace:
+[25-Aug-2017 09:13:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
+[25-Aug-2017 09:13:54 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:36

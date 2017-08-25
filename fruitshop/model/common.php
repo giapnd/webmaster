@@ -41,4 +41,14 @@ function check_account($dbh,$email,$password){
     return $rows;
 }
 
+function get_cart_product($dbh,$product_id){
+    $sql='select id,name,price,img,(select name from t_category p where p.id=q.category) as category,stock,status,description,created_at from t_product q where status =1 and id=? ';
+    $res=$dbh->prepare($sql);
+    $res->bindValue(1,$product_id,PDO::PARAM_STR);
+    $res->execute();
+    $rows=$res->fetchAll();
+    return $rows;
+}
+
+
 ?>

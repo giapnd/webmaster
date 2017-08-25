@@ -12,6 +12,7 @@
     	<!-- Bootstrap  -->
     	<link rel="stylesheet" href="view/css/bootstrap.css">
         <link rel="stylesheet" href="./view/css/style.css">
+        <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
             <header id="fh5co-header">
@@ -27,7 +28,7 @@
                             </td>
                             <?php }?>
                             <td>
-                                <span class="items"><a href="./fruit.php">購入<input type="image" src="view/images/logo.png" alt="購入" class="icon" name="btn_buy" id="btn_buy" /></a></span>
+                                <a href="/fruitshop/fruit.php" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> 前へ</span></a>
                             </td>
                         </table>
                         <div class="col-lg-12 col-md-12 text-center">

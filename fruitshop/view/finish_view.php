@@ -12,6 +12,7 @@
     	<!-- Bootstrap  -->
     	<link rel="stylesheet" href="./view/css/bootstrap.css">
         <link rel="stylesheet" href="./view/css/style.css">
+        <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <header id="fh5co-header">
@@ -19,7 +20,7 @@
                 <div class="row">
                     <table class="fh5co-social">
                         <td>
-                            <a href="./fruit.php">戻る</a>
+                            <a href="/fruitshop/fruit.php" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> 前へ</span></a>
                         </td>
                     </table>
                     <div class="col-lg-12 col-md-12 text-center">

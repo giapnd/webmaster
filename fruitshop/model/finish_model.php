@@ -1,12 +1,4 @@
 <?php
-function get_cart_product($dbh,$product_id){
-    $sql='select id,name,price,img,category,stock,status,description from t_product where status =1 and id=? ';
-    $res=$dbh->prepare($sql);
-    $res->bindValue(1,$product_id,PDO::PARAM_STR);
-    $res->execute();
-    $rows=$res->fetchAll();
-    return $rows;
-}
 
 function update_item_product($dbh,$id,$b){
     $sql='update t_product set stock=stock-1 where id=? ';

@@ -4,12 +4,14 @@
         <meta charset="UTF-8">
         <title>商品管理ページ</title>
         <link rel="stylesheet" href="./view/admin_view.css">
+        <link rel="stylesheet" href="./view/css/style.css">
     </head>
     <body>
         <div><img class="logo" src="./view/images/logo.png"></div>
         <?php if (count($message)!==0){print $message;}?>
         <h1 class="header">商品管理ページ</h1>
         <form method="post" enctype="multipart/form-data">
+            <a href="/fruitshop/fruit.php" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> 前へ</span></a>
             <h2>新規商品追加</h2>
             <lable>名前：<input type="text" name="product_name"></lable><br>
             <lable>値段：<input type="text" name="price"></lable><br>

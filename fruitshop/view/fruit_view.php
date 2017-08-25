@@ -11,7 +11,6 @@
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
 	<meta property="og:description" content=""/>
-	<link rel="shortcut icon" href="favicon.ico">
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Roboto:400,300,700' rel='stylesheet' type='text/css'>
 	<!-- Animate -->
@@ -25,7 +24,7 @@
 
 
 	<!-- Modernizr JS -->
-	<script src="view/js/modernizr-2.6.2.min.js"></script>
+	<script src="./view/js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
 	<div id="fh5co-offcanvas">
@@ -87,7 +86,7 @@
                     <li>
                     	<?php if(isset($_COOKIE['permisions'])) {?>
                         <?php if($_COOKIE['permisions']==1) {?>
-                            <?php print '<a href="./admin.php"><span class="items">商品管理ページ</span>'; ?>
+                            <?php print '<a href="./admin.php"><span class="items">商品管理ページ <img src="./view/images/admin.png"></span>'; ?>
                         <?php }?>
                         <?php }?>
                     </li>
@@ -116,19 +115,19 @@
                 	<?php foreach ($list_item_product as $read) {?>
 				<article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
 					<figure>
-						<a href="#"><img src="<?php print $img_dir.$read['img']; ?>" alt="Image" class="img-responsive"></a>
+						<a href="/fruitshop/info.php?product_id=<?php print $read['id']; ?>"><img src="<?php print $img_dir.$read['img'] ;?>" alt="Image" class="img-responsive"></a>
 					</figure>
-					<span class="fh5co-meta"><a href="#"><?php print $read['category']?></a></span>
-					<h2 class="fh5co-meta"><a href="#"><?php print $read['name']?></a></h2>
-					<h2 class="fh5co-article-title"><a href="#"><?php print $read['price']?>円</a></h2>
+					<span class="fh5co-meta"><a href="#"><?php print $read['category'] ;?></a></span>
+					<h2 class="fh5co-meta"><a href="#"><?php print $read['name'] ;?></a></h2>
+					<h2 class="fh5co-article-title"><a href="#"><?php print $read['price'] ;?>円</a></h2>
 					<?php if(isset($_COOKIE['account_name'])) {?>
                         <?php if ($read['stock']==0) {?> 　
                         <span class="fh5co-meta fh5co-date" style="color:red"><?php print '売り切り' ;?></span>
                         <?php } else {?>
-                        <span class="fh5co-meta fh5co-date" style="color:red"><input type="checkbox" value="<?php print $read['id']?>" name="chb_cart[]">カートに入れる</span>
+                        <span class="fh5co-meta fh5co-date" style="color:red"><input type="checkbox" value="<?php print $read['id'] ;?>" name="chb_cart[]">カートに入れる</span>
                         <?php }?>
                     <?php }?>
-					<span class="fh5co-meta fh5co-date"><?php print $read['created_at']?></span>
+					<span class="fh5co-meta fh5co-date"><?php print $read['created_at'] ;?></span>
 				</article>
 					<?php }?>
             	<?php }?>
