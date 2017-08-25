@@ -29,7 +29,8 @@
                 </div>
             </div>
         </header>
-                <?php if ($list_product_in_cart==''){?>
+
+                <?php if (count($msg) !=0){?>
                     <p class="msg"><?php print $msg; ?></p>
                 <?php }else {?>
                     <p>購入完了しましたのでありがとうございます。</p>

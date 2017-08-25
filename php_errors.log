@@ -538,3 +538,277 @@
 [25-Aug-2017 09:13:54 UTC] PHP Stack trace:
 [25-Aug-2017 09:13:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/info.php:0
 [25-Aug-2017 09:13:54 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/info.php:36
+[25-Aug-2017 22:09:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 36
+[25-Aug-2017 22:09:58 UTC] PHP Stack trace:
+[25-Aug-2017 22:09:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:09:58 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:50
+[25-Aug-2017 22:10:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 36
+[25-Aug-2017 22:10:16 UTC] PHP Stack trace:
+[25-Aug-2017 22:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:10:16 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:50
+[25-Aug-2017 22:13:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 36
+[25-Aug-2017 22:13:28 UTC] PHP Stack trace:
+[25-Aug-2017 22:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:13:28 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:50
+[25-Aug-2017 22:13:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 36
+[25-Aug-2017 22:13:40 UTC] PHP Stack trace:
+[25-Aug-2017 22:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:13:40 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:50
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/fruitshop/finish.php on line 27
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/finish.php on line 28
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'stock' in /home/ubuntu/workspace/fruitshop/finish.php on line 29
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'img' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 40
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 42
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 43
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 22:18:09 UTC] PHP Warning:  Illegal string offset 'description' in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 44
+[25-Aug-2017 22:18:09 UTC] PHP Stack trace:
+[25-Aug-2017 22:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 22:18:09 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:51
+[25-Aug-2017 23:37:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 37
+[25-Aug-2017 23:37:01 UTC] PHP Stack trace:
+[25-Aug-2017 23:37:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 23:37:01 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:58
+[25-Aug-2017 23:37:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/fruitshop/view/finish_view.php on line 37
+[25-Aug-2017 23:37:37 UTC] PHP Stack trace:
+[25-Aug-2017 23:37:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/fruitshop/finish.php:0
+[25-Aug-2017 23:37:37 UTC] PHP   2. include_once() /home/ubuntu/workspace/fruitshop/finish.php:58

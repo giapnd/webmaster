@@ -6,6 +6,7 @@ require './model/fruit_model.php';
 $err_msg=[];
 $img_dir='img/';
 try{
+    
     if (isset ($_GET["information_id"])){
         $information_id=$_GET["information_id"];
     }
@@ -14,6 +15,11 @@ try{
     }
     if (isset ($_GET["search_name"])){
         $search_name=htmlspecialchars($_GET["search_name"],ENT_QUOTES,'UTF-8');
+    }
+    session_start();
+    if(isset($_SESSION['click'])) {
+        $_SESSION['click']=0;
+    // echo "click = ". $_SESSION['click'];
     }
     $dbh=get_db_connect();
     $list_category=get_list_category($dbh);

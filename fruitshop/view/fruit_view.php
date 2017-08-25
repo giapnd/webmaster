@@ -61,7 +61,7 @@
 	</div>
 	<!-- END #fh5co-offcanvas -->
 	<header id="fh5co-header">
-		<form method="post" action ="./finish.php">
+		<form method="get" action ="./finish.php">
 		
 		<div class="container-fluid">
 

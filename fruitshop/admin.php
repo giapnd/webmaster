@@ -25,7 +25,7 @@ try{
         $dbh=get_db_connect();
         if(($_SERVER['REQUEST_METHOD']==='POST') && count($err_msg)===0){
             $message=add_product($dbh,$product_name,$price,$stock,$category,$status,$description,$exit_file,$create_datetime);
-             //print $message;
+            header('Location: /fruitshop/admin.php?');
         }
         if(isset($_GET['stock_change']) && $_SERVER['REQUEST_METHOD']==='GET'){
             if($_GET['stock_update']>=0) {

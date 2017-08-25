@@ -10,30 +10,42 @@ $a=0;
 $b=0;
 try{
     if(isset($_COOKIE['account_id'])){
-        if($_SERVER['REQUEST_METHOD']==='POST'){
+        if($_SERVER['REQUEST_METHOD']==='GET'){
+            session_start();
+            if(isset($_SESSION['click'])) {
+                $_SESSION['click'] = $_SESSION['click']+ 1;
+            }else{ 
+                $_SESSION['click'] = 1;
+            }
+            // echo "click = ". $_SESSION['click'];
             $dbh=get_db_connect();
-            if (isset($_POST['chb_cart'])) {
-            foreach($_POST['chb_cart'] as $product_id) {
+            if (isset($_GET['chb_cart'])) {
+            foreach($_GET['chb_cart'] as $product_id) {
                 $list_product_in_cart[]= get_cart_product($dbh,$product_id);
+                $check=get_cart_product($dbh,$product_id);
            }
         }
-        if($list_product_in_cart==''){
-            $msg='商品を選択してください。';
-        }else{
-            foreach ($list_product_in_cart as $key =>$read){
-                foreach ($read as $i => $value) {
-                    $account_id=$_COOKIE['account_id'];
-                    $id=$value['id'];
-                    $price=$value['price'];
-                    $stock=$value['stock'];
-                    $a=insert_item_cart($dbh,$account_id,$id,$price,$create_datetime,$a);
-                    if ($stock >0){
-                        $b=update_item_product($dbh,$id,$b);
-                    }  
-                }
+        // if($_SESSION['click'] >=2){
+        //     $msg='重複クリックしております。';
+        // } else{
+            if(count($check)==0){
+                $msg='商品を選択してください。';
+            }else{
+                foreach ($list_product_in_cart as $key =>$read){
+                    foreach ($read as $i => $value) {
+                        $account_id=$_COOKIE['account_id'];
+                        $id=$value['id'];
+                        $price=$value['price'];
+                        $stock=$value['stock'];
+                        if ($stock >0 && $_SESSION['click']==1){
+                            $a=insert_item_cart($dbh,$account_id,$id,$price,$create_datetime,$a);
+                            $b=update_item_product($dbh,$id,$b);
+                        }
+                    }
             }
-        $dbh->commit();
-            }    
+            $dbh->commit();
+            }
+        // }      
         }
     }else {
         header('Location: /fruitshop/fruit.php?');
