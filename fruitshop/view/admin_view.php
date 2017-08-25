@@ -36,7 +36,7 @@
             <?php if(count($err_stock)!==0){?>
                 <p class="msg"><?php print $err_stock ;?></p>
             <?php }?>
-            <input type="submit" value="□ ■ □ ■商品を追加□ ■ □ ■">
+            <input type="submit" class="btn" value="□ ■ □ ■商品を追加□ ■ □ ■">
         </form>
         <h2 class="fotter">商品情報変更</h2>
         <p>商品一覧</p>
@@ -58,7 +58,7 @@
             <div class="stock"><input class="store" type="text" name="stock_update" value="<?php print $read['stock'] ;?>">個
             <input type="hidden" name="id_product"  value="<?php print $read['id']; ?>" name="stock_change" /><input type="submit" class="btn" id="<?php print $read['id']; ?>" value="変更" name="stock_change"></div>
             <div class="category"><?php print $read['category'] ;?></div>
-            <div class="status"><input type="hidden" name="id_status"  value="<?php print $read['id']; ?>" name="status_change" /><input type="submit" value="<?php if($read['status']===0){ print '非公開→公開';}else{ print '公開→非公開';}  ?>" name="status_change" ></div>
+            <div class="status"><input type="hidden" name="id_status"  value="<?php print $read['id']; ?>" name="status_change" /><input type="submit" class="btn" value="<?php if($read['status']===0){ print '非公開→公開';}else{ print '公開→非公開';}  ?>" name="status_change" ></div>
             <div class="description"><?php print $read['description'] ;?></div>
             </div>
             </form>

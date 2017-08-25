@@ -55,7 +55,7 @@
 			<article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
 				<?php foreach ($list_product_info as $read) {?>
 					<figure class="animate-box">
-						<img src="<?php print $img_dir.$read['img']; ?>" alt="Image" class="img-responsive">
+						<img src="<?php print $img_dir.$read['img']; ?>" alt="Image" class="img-info-responsive">
 					</figure>
 					<span class="fh5co-meta animate-box"><?php print $read['category'] ;?></span>
 					<h2 class="items"><?php print $read['name'] ;?></h2>
@@ -104,7 +104,7 @@
 					        <?php if(count($msg)!==0){?>
 					             <p class="msg"><?php print $msg ;?></p>
 			            <?php }?>
-						<input type="submit" value="□ ■コメント□ ■">
+						<input type="submit" class="btn" value="□ ■コメント□ ■">
 					</div>
 					<?php }?>
 		
