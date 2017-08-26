@@ -8,6 +8,9 @@ function validation($email,$password){
         if(preg_match($pattern_email,$email)){
             $err_msg[]='メールアドレスではありません';
         }
+        if(strlen($password) < 6){
+            $err_msg[]='パスワードの長さは6文字よりです';
+        }       
     return $err_msg;
     }
 }

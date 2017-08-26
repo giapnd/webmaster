@@ -61,7 +61,7 @@
 	</div>
 	<!-- END #fh5co-offcanvas -->
 	<header id="fh5co-header">
-		<form method="get" action ="./finish.php">
+		<form method="post" action ="./finish.php">
 		
 		<div class="container-fluid">
 
@@ -124,7 +124,7 @@
                         <?php if ($read['stock']==0) {?> 　
                         <span class="fh5co-meta fh5co-date" style="color:red"><?php print '売り切り' ;?></span>
                         <?php } else {?>
-                        <span class="fh5co-meta fh5co-date" style="color:red"><input type="checkbox" value="<?php print $read['id'] ;?>" name="chb_cart[]">カートに入れる</span>
+                        <span class="fh5co-meta fh5co-date" style="color:red"><input type="checkbox" value="<?php print $read['id'] ;?>" name="chb_cart[]" style="margin-top:40px"><?php print 'カートに入れる' ;?></span>
                         <?php }?>
                     <?php }?>
 					<span class="fh5co-meta fh5co-date"><?php print $read['created_at'] ;?></span>

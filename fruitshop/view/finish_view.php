@@ -33,18 +33,23 @@
                 <?php if (count($msg) !=0){?>
                     <p class="msg"><?php print $msg; ?></p>
                 <?php }else {?>
-                    <p>購入完了しましたのでありがとうございます。</p>
-                    <?php foreach ($list_product_in_cart as $key => $read) {?>
-                        <?php foreach ($read as $i =>$value) {?>
-                            <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
-                                <figure>
-                                    <img src="<?php print $img_dir.$value['img']; ?>" alt="Image" class="img-responsive">
-                                </figure>
-                                <h2 class="items">名前：<?php print $value['name']; ?></h2>
-                                <h2 class="items">価格：<?php print $value['price'] ; ?>円</h2>
-                                <h2 class="items">情報：<?php print $value['description'] ; ?></h2>
-                            </article> 
+                    <?php if(count($check) !=0) {?>
+                        <p>購入完了しましたのでありがとうございます。</p>
+                        <?php foreach ($list_product_in_cart as $key => $read) {?>
+                            <?php foreach ($read as $i =>$value) {?>
+                                <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                                    <figure>
+                                        <img src="<?php print $img_dir.$value['img']; ?>" alt="Image" class="img-responsive">
+                                    </figure>
+                                    <h2 class="items">名前：<?php print $value['name']; ?></h2>
+                                    <h2 class="items">価格：<?php print $value['price'] ; ?>円</h2>
+                                    <h2 class="items">情報：<?php print $value['description'] ; ?></h2>
+                                    <h2 class="items">残りの商品：<?php print $value['stock'] ; ?>品</h2>
+                                </article> 
+                            <?php }?>
                         <?php }?>
+                    <?php } else {?>
+                        <?php print '商品を選択してください。';?>
                     <?php }?>
                 <?php }?>
     </body>

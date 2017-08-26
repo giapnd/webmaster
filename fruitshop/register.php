@@ -25,23 +25,28 @@ try{
     }
     $err_msg=validation($kanji_lastname,$kanji_firstname,$furi_lastname,$furi_firstname,$post_first,$post_last,$mobile_first,$mobile_mid,$mobile_last,$email,$password,$re_password);
     $dbh=get_db_connect();
-    if(($_SERVER['REQUEST_METHOD']==='POST') && count($err_msg)===0){
-        $message=add_user($dbh,$kanji_lastname,$kanji_firstname,$furi_lastname,$furi_firstname,$post_first,$post_last,$mobile_first,$mobile_mid,$mobile_last,$email,$password,$create_datetime);
-        session_start();
-        if (isset($_SESSION['account_id'])) {
-            $account_id = $_SESSION['account_id'];
-        }else {
-            $info_account=check_account($dbh,$email,$password);
-            foreach($info_account as $read){
-                setcookie('account_name',$read['name_kanji'], time() + 3600);
-                setcookie('account_id', $read['id'], time() + 3600);
-                if($read['permisions']==1){
-                    setcookie('permisions', $read['permisions'], time() + 3600);
+    $check_duplicate_account=check_account_duplicate($dbh,$email);
+    if(count($check_duplicate_account) !=0){
+        $msg='作成メールは重複しています';
+    }else {
+        if(($_SERVER['REQUEST_METHOD']==='POST') && count($err_msg)===0){
+            $message=add_user($dbh,$kanji_lastname,$kanji_firstname,$furi_lastname,$furi_firstname,$post_first,$post_last,$mobile_first,$mobile_mid,$mobile_last,$email,$password,$create_datetime);
+            session_start();
+            if (isset($_SESSION['account_id'])) {
+                $account_id = $_SESSION['account_id'];
+            }else {
+                $info_account=check_account($dbh,$email,$password);
+                foreach($info_account as $read){
+                    setcookie('account_name',$read['name_kanji'], time() + 3600);
+                    setcookie('account_id', $read['id'], time() + 3600);
+                    if($read['permisions']==1){
+                        setcookie('permisions', $read['permisions'], time() + 3600);
+                    }
                 }
-            }
-            header('Location: /fruitshop/fruit.php?');
-            exit;
-        }   
+                header('Location: /fruitshop/fruit.php?');
+                exit;
+            }   
+        }
     }
 
 }catch(Exception $e){

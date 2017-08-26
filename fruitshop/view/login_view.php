@@ -16,11 +16,11 @@
             <table>
                 <tr>
                     <td class="items">メールアドレス：</td>
-                    <td><input type="textbox" name="email"></td>
+                    <td><input type="textbox" name="email" required="required" maxlength="50"></td>
                 </tr>
                 <tr>
                     <td class="items">パスワード：</span></td>
-                    <td><input type="password" name="password"></td>
+                    <td><input type="password" name="password" required="required" maxlength="50"></td>
                 </tr>
             </table>
             <?php if (count($err_msg)!==0){?>

@@ -13,16 +13,16 @@
         <form method="post" enctype="multipart/form-data">
             <a href="/fruitshop/fruit.php" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> 前へ</span></a>
             <h2>新規商品追加</h2>
-            <lable>名前：<input type="text" name="product_name"></lable><br>
-            <lable>値段：<input type="text" name="price"></lable><br>
-            <lable>個数：<input type="text" name="stock"></lable><br>
+            <lable>名前：<input type="text" name="product_name" required="required" maxlength="25"></lable><br>
+            <lable>値段：<input type="text" name="price" required="required" maxlength="10"></lable><br>
+            <lable>個数：<input type="text" name="stock" required="required" maxlength="10"></lable><br>
             カテゴリー：
             <select name="category">
                 <?php foreach ($list_category as $read) {?>
                 <option value="<?php print $read['id'] ;?>"><?php print $read['name']; ?></option>          
                 <?php }?>  
             </select><br>
-            <lable>情報：<textarea rows="5" cols="50" maxlength="20" name="description"></textarea><br>
+            <lable>情報：<textarea rows="5" cols="50" maxlength="20" name="description" required="required"></textarea><br>
             <lable><input type="file" name="new_img"></lable><br>
             <select name="status">
                 <option value="0" >非公開</option>
@@ -55,7 +55,7 @@
             <div class="image"><img src="<?php print $img_dir.$read['img']; ?>"></div>
             <div class="name"><?php print $read['name']; ?></div>
             <div class="price"><?php print $read['price'] ;?>円</div>
-            <div class="stock"><input class="store" type="text" name="stock_update" value="<?php print $read['stock'] ;?>">個
+            <div class="stock"><input class="store" type="text" name="stock_update" required="required" value="<?php print $read['stock'] ;?>">個
             <input type="hidden" name="id_product"  value="<?php print $read['id']; ?>" name="stock_change" /><input type="submit" class="btn" id="<?php print $read['id']; ?>" value="変更" name="stock_change"></div>
             <div class="category"><?php print $read['category'] ;?></div>
             <div class="status"><input type="hidden" name="id_status"  value="<?php print $read['id']; ?>" name="status_change" /><input type="submit" class="btn" value="<?php if($read['status']===0){ print '非公開→公開';}else{ print '公開→非公開';}  ?>" name="status_change" ></div>

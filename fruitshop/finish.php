@@ -10,7 +10,7 @@ $a=0;
 $b=0;
 try{
     if(isset($_COOKIE['account_id'])){
-        if($_SERVER['REQUEST_METHOD']==='GET'){
+        if($_SERVER['REQUEST_METHOD']==='POST'){
             session_start();
             if(isset($_SESSION['click'])) {
                 $_SESSION['click'] = $_SESSION['click']+ 1;
@@ -19,12 +19,13 @@ try{
             }
             // echo "click = ". $_SESSION['click'];
             $dbh=get_db_connect();
-            if (isset($_GET['chb_cart'])) {
-            foreach($_GET['chb_cart'] as $product_id) {
+            if (isset($_POST['chb_cart'])) {
+                
+            foreach($_POST['chb_cart'] as $product_id) {
                 $list_product_in_cart[]= get_cart_product($dbh,$product_id);
                 $check=get_cart_product($dbh,$product_id);
            }
-        }
+        //}
         // if($_SESSION['click'] >=2){
         //     $msg='重複クリックしております。';
         // } else{
@@ -45,7 +46,9 @@ try{
             }
             $dbh->commit();
             }
-        // }      
+        }else{
+            $msg='商品を選択してください。';
+            }      
         }
     }else {
         header('Location: /fruitshop/fruit.php?');

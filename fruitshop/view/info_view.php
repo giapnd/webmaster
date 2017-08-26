@@ -95,7 +95,7 @@
 						<?php }?>
 					<div class="row rp-b">
 						<p>コメント内容</p>
-						<textarea rows="5" cols="50" maxlength="20" name="comment"></textarea><br>
+						<textarea rows="5" cols="50" maxlength="20" name="comment" required="required" ></textarea><br>
 			            <?php if (count($err_msg)!==0){?>
 		                	<?php foreach($err_msg as $key => $value) {?>
 				                <p class="msg"><?php print $value; ?></p>

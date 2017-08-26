@@ -38,6 +38,9 @@ function validation($kanji_lastname,$kanji_firstname,$furi_lastname,$furi_firstn
         if(trim($password) ===''){
             $err_msg[]='パスワードを入力してください';
         }
+        if(strlen($password) < 6){
+            $err_msg[]='パスワードの長さは6文字よりです';
+        }
         if(trim($re_password) ===''){
             $err_msg[]='パスワードをも一度入力してください';
         }
@@ -64,6 +67,15 @@ function validation($kanji_lastname,$kanji_firstname,$furi_lastname,$furi_firstn
         }
     return $err_msg;
     }
+}
+
+function check_account_duplicate($dbh,$email){
+    $sql='select id,name_kanji,name_furikana,post_number,mobile,email,password,permisions,created_at from t_user where email=?';
+    $res=$dbh->prepare($sql);
+    $res->bindValue(1,$email,PDO::PARAM_STR);
+    $res->execute();
+    $rows=$res->fetchAll();
+    return $rows;
 }
 
 function add_user($dbh,$kanji_lastname,$kanji_firstname,$furi_lastname,$furi_firstname,$post_first,$post_last,$mobile_first,$mobile_mid,$mobile_last,$email,$password,$create_datetime){

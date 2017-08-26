@@ -12,7 +12,7 @@ function get_db_connect(){
 }
     
 function get_ds_product($dbh){
-    $sql='select id,name,price,img,category,stock,status,description from t_product order by id DESC ';
+    $sql='select id,name,price,img,(select name from t_category p where p.id=q.category) as category,stock,status,description from t_product q order by id DESC ';
     $res=$dbh->query($sql);
     $rows=$res->fetchAll();
     return $rows;
