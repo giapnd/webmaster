@@ -1,0 +1,22 @@
+.logo{
+    width:200px;
+    height:100px;
+}
+#font12{
+    font-size:12px;
+    color:red;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#red{
+    color:red;
+}
+.create_form{
+    background-color:#f5f5dd;
+    width:55%;
+    margin:auto;
+}
+.msg{
+    font-size:12px;
+    color:red;
+}

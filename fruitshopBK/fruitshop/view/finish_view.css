@@ -1,0 +1,16 @@
+img{
+    width:100px;
+    /*padding:10px;*/
+    height:100px;
+}
+
+.product{
+    height: 160px;
+    text-align: left;
+    margin: 5px;
+    float: left;
+}
+.msg{
+    font-size:12px;
+    color:red;
+}

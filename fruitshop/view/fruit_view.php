@@ -59,9 +59,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END #fh5co-offcanvas -->
 	<header id="fh5co-header">
-		<form method="post" action ="./finish.php">
+		<form method="get" action ="./cart.php">
 		
 		<div class="container-fluid">
 
@@ -69,16 +68,13 @@
 				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 				<ul class="fh5co-social">
 					<li>
-                        <?php if(isset($_COOKIE['account_name'])) {?>
-                                <span class="items">購入<input type="image" src="view/images/dollar.png" alt="購入" class="icon" name="btn_buy" id="btn_buy" /></span>
-                        <?php } ?>
-					</li>
-					<li>
-						<a href="./cart.php"><span class="items">カート</span><img class="icon" src="./view/images/cart.jpg">
-					</li>
-					<li>
 						<?php if(isset($_COOKIE['account_name'])) {?>
-                        <?php print '<a href="./logout.php"><span class="items">'.$_COOKIE['account_name'].'</span><img class="icon" src="./view/images/logout.png">';?> 
+                        <?php print '<span class="items">ユーザー名:'.$_COOKIE['account_name'].'</span>'?>
+                        <?php }?>
+						<span><input type="image" src="./view/images/cart.jpg" alt="カート" class="icon" name="btn_cart" id="btn_cart" /></span>
+                    </li>
+						<?php if(isset($_COOKIE['account_name'])) {?>                    
+                        <?php print '<span class="items"><a href="./logout.php">ログアウト</span>';?> 
                         <?php }else {?>
                         <?php print '<a href="./login.php"><span class="items">ログイン</span><img class="icon" src="./view/images/login.png">'; ?>
                         <?php }?>
@@ -94,10 +90,10 @@
 				<div class="col-lg-12 col-md-12 text-center">
 					<h1 id="fh5co-logo"><a href="/fruitshop/fruit.php">熱帯のフルーツ <sup>ショップ</sup></a></h1>
 				</div>
+				
 			</div>
 		</div>
 	</header>
-	<!-- END #fh5co-header -->
 	<div class="container-fluid">
 		<div class="row fh5co-post-entry">
 		    <?php if ($information_id==1||$information_id==2||$information_id==3||$information_id==4) {?>
@@ -120,13 +116,13 @@
 					<span class="fh5co-meta"><a href="#"><?php print $read['category'] ;?></a></span>
 					<h2 class="fh5co-meta"><a href="#"><?php print $read['name'] ;?></a></h2>
 					<h2 class="fh5co-article-title"><a href="#"><?php print $read['price'] ;?>円</a></h2>
-					<?php if(isset($_COOKIE['account_name'])) {?>
-                        <?php if ($read['stock']==0) {?> 　
+
+                        <?php if ($read['stock']<=0) {?> 　
                         <span class="fh5co-meta fh5co-date" style="color:red"><?php print '売り切り' ;?></span>
                         <?php } else {?>
-                        <span class="fh5co-meta fh5co-date" style="color:red"><input type="checkbox" value="<?php print $read['id'] ;?>" name="chb_cart[]" style="margin-top:40px"><?php print 'カートに入れる' ;?></span>
+                        <span class="fh5co-meta fh5co-date" style="color:red"><a href="/fruitshop/cart.php?product_id=<?php print $read['id']; ?>"><img src="./view/images/cart.jpg" alt="カート" class="icon" name="btn_cart"></a></span>
                         <?php }?>
-                    <?php }?>
+               
 					<span class="fh5co-meta fh5co-date"><?php print $read['created_at'] ;?></span>
 				</article>
 					<?php }?>

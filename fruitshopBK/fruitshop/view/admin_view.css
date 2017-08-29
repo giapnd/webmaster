@@ -1,0 +1,73 @@
+.logo{
+    width:200px;
+    height:100px;
+}
+.header{
+   font-size:36px;
+   padding-bottom:20px;
+   border-bottom: 1px solid black;
+   margin-top:0px;
+}
+.fotter{
+    font-size:20px;
+    padding-top:20px;
+    border-top:1px solid black;
+}
+.group_list{
+    display:flex;
+}
+.image{
+    border:1px solid black;
+    flex:1;
+    text-align:center;
+    border-collapse:collapse;
+}
+.name{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.price{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.stock{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.category{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.status{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.description{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.msg{
+    font-size:12px;
+    color:red;
+}
+img{
+    width:100px;
+    /*padding:10px;*/
+    height:100px;
+}
+.store{
+    width:50px;
+}
+

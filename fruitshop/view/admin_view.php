@@ -62,8 +62,6 @@
             <div class="description"><?php print $read['description'] ;?></div>
             </div>
             </form>
-        <?php
-        }
-        ?>
+        <?php }?>
     </body>
 </html>

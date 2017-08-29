@@ -1,14 +1,60 @@
-.create_form{
-    background-color:white;
-    width:55%;
-    margin:auto;
+.group_list{
+    display:flex;
 }
-.list_product{
-    margin-left:20px;
-    
+.image{
+    border:1px solid black;
+    flex:1;
+    text-align:center;
+    border-collapse:collapse;
+}
+.name{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.price{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.stock{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.category{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.status{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.description{
+    border:1px solid black;
+    flex:1;
+    border-left:none;
+    text-align:center;
+}
+.msg{
+    font-size:12px;
+    color:red;
 }
 img{
     width:100px;
     /*padding:10px;*/
     height:100px;
+}
+.store{
+    width:50px;
+}
+#submit {
+    clear: both;
 }
