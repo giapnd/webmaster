@@ -71,18 +71,17 @@
 						<?php if(isset($_COOKIE['account_name'])) {?>
                         <?php print '<span class="items">ユーザー名:'.$_COOKIE['account_name'].'</span>'?>
                         <?php }?>
-						<span><input type="image" src="./view/images/cart.jpg" alt="カート" class="icon" name="btn_cart" id="btn_cart" /></span>
                     </li>
 						<?php if(isset($_COOKIE['account_name'])) {?>                    
-                        <?php print '<span class="items"><a href="./logout.php">ログアウト</span>';?> 
+                        <?php print '<span class="items_bold"><a href="./logout.php">ログアウト</span>';?> 
                         <?php }else {?>
-                        <?php print '<a href="./login.php"><span class="items">ログイン</span><img class="icon" src="./view/images/login.png">'; ?>
+                        <?php print '<a href="./login.php"><span class="items_bold">ログイン</span><img class="icon" src="./view/images/login.png">'; ?>
                         <?php }?>
                     </li>
                     <li>
                     	<?php if(isset($_COOKIE['permisions'])) {?>
                         <?php if($_COOKIE['permisions']==1) {?>
-                            <?php print '<a href="./admin.php"><span class="items">商品管理ページ <img src="./view/images/admin.png"></span>'; ?>
+                            <?php print '<a href="./admin.php"><span class="items_bold">商品管理ページ <img src="./view/images/admin.png"></span>'; ?>
                         <?php }?>
                         <?php }?>
                     </li>
@@ -118,9 +117,9 @@
 					<h2 class="fh5co-article-title"><a href="#"><?php print $read['price'] ;?>円</a></h2>
 
                         <?php if ($read['stock']<=0) {?> 　
-                        <span class="fh5co-meta fh5co-date" style="color:red"><?php print '売り切り' ;?></span>
+                        <span class="fh5co-meta fh5co-date" style="color:red"><?php print '売り切れ' ;?></span>
                         <?php } else {?>
-                        <span class="fh5co-meta fh5co-date" style="color:red"><a href="/fruitshop/cart.php?product_id=<?php print $read['id']; ?>"><img src="./view/images/cart.jpg" alt="カート" class="icon" name="btn_cart"></a></span>
+                        <span class="fh5co-meta fh5co-date" style="color:red"><a href="/fruitshop/cart.php?product_id=<?php print $read['id']; ?>"><img src="./view/images/cart.PNG" alt="カート" class="icon_cart" name="btn_cart"></a></span>
                         <?php }?>
                
 					<span class="fh5co-meta fh5co-date"><?php print $read['created_at'] ;?></span>

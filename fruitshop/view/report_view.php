@@ -22,8 +22,8 @@
                             <?php if(isset($_COOKIE['account_id'])) {?>
                             <td>
                     			<?php foreach ($report_cart_of_account as $key => $read) {?>
-                                <h2 class="items">品数:<?php print $read['count_sp']; ?>数</h2>
-                                <h2 class="items">合計:<?php print $read['sum_amount']; ?>円</h2>
+                                <h2 class="items_bold">品数:<?php print $read['count_sp']; ?>数</h2>
+                                <h2 class="items_bold">合計:<?php print $read['sum_amount']; ?>円</h2>
                                 <?php }?>
                             </td>
                             <?php }?>

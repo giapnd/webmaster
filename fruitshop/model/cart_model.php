@@ -79,7 +79,7 @@ function update_stock_t_product_history($dbh,$id_product,$stock_update,$session_
     $dbh->commit();
 }
 function report_t_product_history($dbh,$session_id){
-    $sql='select sum(amount) as sum_amount,count(*) as count_sp from t_product_history where session_id=? ';
+    $sql='select sum(amount*order_stock) as sum_amount,count(*) as count_sp from t_product_history where session_id=? ';
     $res=$dbh->prepare($sql);
     $res->bindValue(1,$session_id,PDO::PARAM_STR);
     $res->execute();

@@ -777,7 +777,11 @@ figure figcaption {
   }
 }
 .items{
-  font-size:14px;
+  font-size:12px;
+}
+.items_bold{
+  font-size:16px;
+  font-weight:bold;
 }
 .font14{
     font-size:14px;
@@ -787,6 +791,11 @@ figure figcaption {
 .icon{
     width:40px;
     height:30px;
+    margin-bottom:0;
+}
+.icon_cart{
+    width:150px;
+    height:50px;
     margin-bottom:0;
 }
 .footer{

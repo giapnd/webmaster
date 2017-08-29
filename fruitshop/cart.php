@@ -23,7 +23,7 @@ try{
             }else{ 
                 $_SESSION['click'] = 1;
             }
-            echo "click = ". $_SESSION['click'];
+            // echo "click = ". $_SESSION['click'];
     if($_SERVER['REQUEST_METHOD']==='GET'){
         if(isset($_GET['product_id']) && $_SESSION['click']==1){
             $product_id=$_GET['product_id'];
@@ -64,8 +64,8 @@ try{
                     $f=delete_t_product_history($dbh,$session_id,$f);
                     
                     $dbh->commit();
-                    // $_SESSION = array();
-                    // session_destroy();
+                    $_SESSION = array();
+                    session_destroy();
                     // header('Location: fruit.php');
                     // exit;
                 }

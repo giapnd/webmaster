@@ -31,13 +31,13 @@
 						<?php if(isset($_COOKIE['account_name'])) {?>
                         <?php print '<a href="./logout.php"><span class="items">'.$_COOKIE['account_name'].'</span><img class="icon" src="./view/images/logout.png">';?> 
                         <?php }else {?>
-                        <?php print '<a href="./login.php"><span class="items">ログイン</span><img class="icon" src="./view/images/login.png">'; ?>
+                        <?php print '<a href="./login.php"><span class="items_bold">ログイン</span><img class="icon" src="./view/images/login.png">'; ?>
                         <?php }?>
                     </li>
                     <li>
                     	<?php if(isset($_COOKIE['permisions'])) {?>
                         <?php if($_COOKIE['permisions']==1) {?>
-                            <?php print '<a href="./admin.php"><span class="items">商品管理ページ <img src="./view/images/admin.png"></span>'; ?>
+                            <?php print '<a href="./admin.php"><span class="items_bold">商品管理ページ <img src="./view/images/admin.png"></span>'; ?>
                         <?php }?>
                         <?php }?>
                     </li>
@@ -72,7 +72,7 @@
 					<?php if (!isset ($_COOKIE['account_name'])) {?>
 						<div class="row rp-b">
 							<blockquote>
-								<p>&ldquo;コメントするためロギングしてください。&rdquo;</p>
+								<p>&ldquo;コメントするためログインしてください。&rdquo;</p>
 							</blockquote>
 						</div>	
 					<?php } else{?>
